@@ -11,12 +11,12 @@
 	<form method="post">
 		<label for="name">Name</label>
 		<input type="Text" id="name" minlength="3" maxlength="50" required></input>
-		<label for="portfolio">Portfolio</label>
+		<label for="portfolio" required>Portfolio</label>
 		<input type="URL" id="portfolio"></input>
 		<label for="favColor">Favourite Color</label>
 		<input type="Color" id="favColor"></input>
 		<label for="likeness">Likeness</label>
-		<input type="Range" id="likeness"></input>
+		<input type="Range" id="likeness" min="1" max="100"></input>
 		<button type="submit">Submit</button>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
